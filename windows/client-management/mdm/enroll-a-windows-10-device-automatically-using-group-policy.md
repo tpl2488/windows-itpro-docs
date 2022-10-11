@@ -88,7 +88,7 @@ The following steps demonstrate required settings using the Intune service:
 
    :::image type="content" alt-text="Mobility setting MDM intune." source="images/auto-enrollment-microsoft-intune-setting.png" lightbox="images/auto-enrollment-microsoft-intune-setting.png":::
 
-7. Verify that the *Enable Automatic MDM enrollment using default Azure AD credentials* group policy (**Local Group Policy Editor > Computer Configuration > Policies > Administrative Templates > Windows Components > MDM**) is properly deployed to all devices that should be enrolled into Intune.
+7. Verify that the *Enable Automatic MDM enrollment using default Azure AD credentials* group policy (**Local Group Policy Editor > Computer Configuration > Policies > Administrative Templates > Windows Components > MDM**) is properly deployed to all devices that should be enrolled into Intune. Also verify that the "Register domain joined computers as devices" is set to Enable by group policy (**Local Group Policy Editor > Computer Configuration > Policies > Administrative Templates > Windows Components > Device Registration).
 
 You may contact your domain administrators to verify if the group policy has been deployed successfully.
 
